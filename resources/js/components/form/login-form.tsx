@@ -50,7 +50,7 @@ export function LoginForm({
           <form className="p-6 md:p-8" onSubmit={submit}>
             <div className="flex flex-col gap-4">
               <div className="flex flex-col items-start text-left">
-                <h1 className="text-md font-bold">PT. Wijaya Nikel Nusantara</h1>
+                <h1 className="text-md font-bold">Trader 88</h1>
               </div>
               <p className="font-bold text-xl md:mt-2">
                 Selamat Datang!
