@@ -21,7 +21,7 @@ export default function Header({ page }: HeaderProps) {
         <div className="flex items-center justify-between bg-orange-400 px-4 py-2 md:py-4 sm:px-6 text-white rounded-full mt-4 md:mt-0 shadow-md">
             <div className="flex flex-1 items-center justify-between">
                 <h1 className="text-sm md:text-lg font-semibold">
-                    <Link href="/">TRADER 88</Link>
+                    <Link href={auth.user.role === "operasional" ? "/operasional" : "/"}>TRADER 88</Link>
                 </h1>
                 {auth.user.role === "admin" && (
                     <div className="">

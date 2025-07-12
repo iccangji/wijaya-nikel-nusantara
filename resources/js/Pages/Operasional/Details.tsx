@@ -20,11 +20,7 @@ export default function OperasionalDetails() {
             icon: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#d33',
-            cancelButtonColor: '#fff',
-            customClass: {
-                confirmButton: 'order-1',
-                cancelButton: 'border-2 border-gray-900 text-gray-900 order-2',
-            },
+            cancelButtonColor: '#fb923c',
             confirmButtonText: 'Hapus',
             cancelButtonText: 'Batal',
         }).then((result) => {
